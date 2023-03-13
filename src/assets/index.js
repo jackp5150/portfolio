@@ -32,6 +32,31 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import twhs from "./company/TWHS.png";
+import paycom from "./company/paycom.png";
+import ut from "./company/UT.png";
+import ecocar from "./ecocar.png";
+import convergent from "./company/convergent.png";
+import arl from "./company/ARL.png";
+import ansible from "./tech/ansible.png";
+import aws from "./tech/aws.png";
+import bash from "./tech/bash.png";
+import c from "./tech/C.png";
+import flask from "./tech/flask.png";
+import github from "./tech/github.png";
+import gitlab from "./tech/gitlab.png";
+import java from "./tech/java.png";
+import matplotlib from "./tech/matplotlib.png";
+import opencv from "./tech/openCV.png";
+import python from "./tech/python.png";
+import r from "./tech/r.png";
+import reactnative from "./tech/reactNative.png";
+import salesforce from "./tech/salesforce.png";
+import sklearn from "./tech/sklearn.png";
+import sql from "./tech/sql.jpeg";
+import swift from "./tech/swift.png";
+import tensorflow from "./tech/tensorflow.png";
+import tkinter from "./tech/tkinter.png"
 
 export {
   logo,
@@ -62,4 +87,28 @@ export {
   carrent,
   jobit,
   tripguide,
+  arl,
+  convergent,
+  ecocar,
+  twhs,
+  ut,
+  ansible,
+  aws,
+  bash,
+  c,
+  flask,
+  github,
+  gitlab,
+  java,
+  matplotlib,
+  opencv,
+  python,
+  r,
+  reactnative,
+  salesforce,
+  sklearn,
+  sql,
+  swift,
+  tensorflow,
+  tkinter
 };
