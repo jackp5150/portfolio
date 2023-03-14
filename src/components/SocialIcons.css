@@ -1,0 +1,14 @@
+.social-icons-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 100px;
+    left: 20px;
+    z-index: 9999;
+  }
+  
+  .social-icons-container > * {
+    margin-bottom: 10px;
+  }
+  

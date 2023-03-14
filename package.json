@@ -22,6 +22,7 @@
     "react-lottie": "^1.2.3",
     "react-router-dom": "^6.9.0",
     "react-social-bar": "^1.0.16",
+    "react-social-icons": "^5.15.0",
     "react-tilt": "^0.1.4",
     "react-vertical-timeline-component": "^3.6.0",
     "three": "^0.150.1",
