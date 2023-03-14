@@ -1,4 +1,4 @@
-import { BrowserRouter } from "react-router-dom";
+import {HashRouter as Router} from 'react-router-dom'
 import AwesomeSlider from 'react-awesome-slider';
 import 'react-awesome-slider/dist/styles.css';
 import React, { useState, useEffect} from 'react';
@@ -17,7 +17,7 @@ const App = () => {
   }, []);
 
   return (
-    <BrowserRouter>
+    <Router>
       <div className='relative z-0 bg-primary'>
         {loading ? <LoadingAnimation /> : (
           <h1>
@@ -39,7 +39,7 @@ const App = () => {
           </h1>
         )}
       </div>
-    </BrowserRouter>
+     </Router>
   );
 }
 
