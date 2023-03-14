@@ -186,6 +186,8 @@ const educations = [
     date: "August 2017 - May 2021",
     major: "N/A",
     minor: "N/A",
+    gpa: "5.3",
+    link:"",
     icon: twhs,
     iconBg: '#E6DEDD',
     points: [
@@ -199,6 +201,8 @@ const educations = [
     date: "August 2021 - May 2025",
     major: "Computer Science",
     minor: "Business",
+    gpa: "3.6",
+    link: "www.google.com",
     icon: ut,
     iconBg: '#383E56',
     points: [
@@ -215,6 +219,7 @@ const educations = [
     company_name: "Applied Research Laboratories",
     icon: arl,
     iconBg: "#383E56", // don't know what this does
+    link: "https://www.arlut.utexas.edu/",
     date: "May 2022 - August 2022",
     points: [
       "Led the software development of a novel Unmanned Underwater Vehicle (UUV) sound controller and sound controller User Interface.",
@@ -227,6 +232,7 @@ const educations = [
     title: "Undergraduate Researcher",
     company_name: "The University of Texas at Austin - Bioinformatics Lab",
     icon: ut,
+    link: "https://www.cs.utexas.edu/research/bioinformatics-and-computational-biology",
     iconBg: "#E6DEDD",
     date: "Jan 2021 - January 2022",
     points: [
@@ -253,6 +259,7 @@ const educations = [
     company_name: "Texas Convergent",
     icon: convergent,
     iconBg: "#E6DEDD",
+    link: "https://sites.utexas.edu/ecocar/",
     date: "Jan 2023 - Present",
     points: [
       "Accepted into Forge program which has a less than 10% acceptance rate",
@@ -264,6 +271,7 @@ const educations = [
     title: "Software Development Intern",
     company_name: "Paycom",
     icon: paycom,
+    link: "https://www.paycom.com/",
     iconBg: "#E6DEDD",
     date: "May 2023 - August 2023",
     points: [

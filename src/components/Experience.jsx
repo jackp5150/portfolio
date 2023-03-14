@@ -58,6 +58,7 @@ const ExperienceCard = ({ experience }) => {
       <Button
   variant="primary"
   size="md"
+  data-mdb-ripple-color="#c953d6"
   style={{
     backgroundColor: "#3c3078",
     color: "#fff",
@@ -84,6 +85,7 @@ const ExperienceCard = ({ experience }) => {
     e.target.style.backgroundColor = "#3c3078";
     e.target.style.transform = "scale(1)";
   }}
+  onClick={() => window.open(experience.link, "_blank")}
   
 >
   Click me
