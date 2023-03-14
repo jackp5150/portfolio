@@ -6,7 +6,7 @@ import 'react-awesome-slider/dist/custom-animations/fall-animation.css';
 import LoadingAnimation from "./components/IntroLoader";
 import Lottie from 'react-lottie'
 import animationData from './lotties/loading.json'
-import { About, Contact, Experience, Feedbacks, Hero, Navbar, Tech, Works, StarsCanvas } from "./components";
+import { About, Contact, Experience, Feedbacks, Hero, Navbar, Tech, Works, StarsCanvas, Education } from "./components";
 
 const App = () => {
   const [loading, setLoading] = useState(true);
@@ -24,6 +24,7 @@ const App = () => {
           <Hero />
         </div>
         <About />
+        <Education/>
         <Experience />
         <Tech />
         <Works />
