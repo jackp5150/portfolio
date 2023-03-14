@@ -1,14 +1,43 @@
 .social-icons-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    top: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  top: 100px;
+  left: -100px;
+  z-index: 9999;
+  animation: slide-in 0.5s forwards;
+
+}
+
+.social-icons-container > * {
+  margin-bottom: 5px;
+  margin-left: 10px;
+}
+
+.social-icons-container a:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+/* .social-icons-container {
+  position: fixed;
+  top: calc(50% + 50px);
+  left: -100px; /* Start offscreen */
+  /* z-index: 9999;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transform: translateY(-50%);
+  animation: slide-in 0.5s forwards; */
+/* } */ 
+
+@keyframes slide-in {
+  from {
+    left: -100px;
+  }
+  to {
     left: 20px;
-    z-index: 9999;
   }
-  
-  .social-icons-container > * {
-    margin-bottom: 10px;
-  }
-  
+}

@@ -21,7 +21,7 @@ const App = () => {
       <div className='relative z-0 bg-primary'>
         {loading ? <LoadingAnimation /> : (
           <h1>
-            <SocialIcon />
+            {/* <SocialIcon /> */}
             <div className='bg-hero-pattern bg-cover bg-no-repeat bg-center'>
               <Navbar />
               <Hero />

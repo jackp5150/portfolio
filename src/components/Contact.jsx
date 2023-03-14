@@ -6,6 +6,8 @@ import { styles } from '../styles'
 import { EarthCanvas } from './canvas'
 import { SectionWrapper } from '../hoc'
 import { slideIn } from '../utils/motion'
+import { SocialIcon } from "react-social-icons";
+
 
 // DwRTvGVxiPDzNwBSo
 // service_k7ugsxg
@@ -130,6 +132,28 @@ const Contact = () => {
 
           </form>
       </motion.div>
+
+      <motion.div variants={slideIn("left", "tween", 0.2, 1)} style={{ position: "absolute", left: "-40px", top: "15%", zIndex: 999, display: "flex", flexDirection: "column", alignItems: "center" }}>
+      <a href="https://www.linkedin.com/in/jack-perkins-627976162/" target="_blank" rel="noopener noreferrer">
+        <SocialIcon
+          url="https://www.linkedin.com/in/jack-perkins-627976162/"
+          style={{ height: 50, width: 50, margin: "10px 0" }}
+        />
+      </a>
+      <a href="https://github.com/jackp5150" target="_blank" rel="noopener noreferrer">
+        <SocialIcon
+          url="https://github.com/jackp5150"
+          style={{ height: 50, width: 50, margin: "10px 0" }}
+        />
+      </a>
+      <a href="https://www.instagram.com/jack_p_erkin_s/?hl=en" target="_blank" rel="noopener noreferrer">
+        <SocialIcon
+          url="https://www.instagram.com/jack_p_erkin_s/?hl=en"
+          style={{ height: 50, width: 50, margin: "10px 0" }}
+        />
+      </a>
+      </motion.div>
+
 
       <motion.div variants={slideIn("right", "tween", 0.2, 1)}
       className="xl:flex-1 xl:h-auto md:h-[550px] h-[350px}"
