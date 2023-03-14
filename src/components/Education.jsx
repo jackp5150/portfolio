@@ -38,8 +38,9 @@ const EducationCard = ({ education }) => {
           className='text-secondary text-[16px] font-semibold'
           style={{ margin: 0 }}
         >
-          {"Major: " + education.major + " Minor: " + education.minor}
-          
+        {"Major: " + education.major + " "}
+          <br />
+          {"Minor: " + education.minor}          
         </p>
       </div>
 
@@ -62,7 +63,7 @@ const Education = () => {
     <>
       <motion.div variants={textVariant()}>
         <p className={`${styles.sectionSubText} text-center`}>
-          How I've learned what I have
+          My Education
         </p>
         <h2 className={`${styles.sectionHeadText} text-center`}>
           Education.
@@ -83,4 +84,4 @@ const Education = () => {
   );
 };
 
-export default SectionWrapper(Education, "");
+export default SectionWrapper(Education, "education");

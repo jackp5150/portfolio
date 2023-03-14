@@ -57,6 +57,15 @@ export const navLinks = [
     title: "About",
   },
   {
+    id: "education",
+    title: "Education",
+  },
+  {
+    id: "work",
+    title: "Experience",
+  },
+  // FIX
+  {
     id: "work",
     title: "Work",
   },
@@ -64,15 +73,16 @@ export const navLinks = [
     id: "contact",
     title: "Contact",
   },
-];
+ ];
+ 
 
-const services = [
+ const services = [
   {
-    title: "Web Developer",
+    title: "Student",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Frontend Developer",
     icon: mobile,
   },
   {
@@ -80,10 +90,11 @@ const services = [
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "System Design",
     icon: creator,
   },
-];
+ ];
+ 
 
 
 const technologies = [
@@ -123,13 +134,22 @@ const technologies = [
     name: "HTML 5",
     icon: html,
   },
-  {
-    name: "CSS",
-    icon: css,
-  },
+  
   {
     name: "React Native",
     icon: reactnative,
+  },
+  {
+    name: "Salesforce",
+    icon: salesforce,
+  },
+  {
+    name: "Amazon Web Services",
+    icon: aws,
+  },
+  {
+    name: "Ansible",
+    icon: ansible,
   },
 ];
 
@@ -142,10 +162,10 @@ const devops =[
     name: "Ansible",
     icon: ansible,
   },
-  {
-    name: "Docker",
-    icon: docker,
-  },
+  // {
+  //   name: "Docker",
+  //   icon: docker,
+  // },
   {
     name: "Github",
     icon: ghub,
