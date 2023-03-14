@@ -4,6 +4,8 @@ import {
   VerticalTimelineElement,
 } from "react-vertical-timeline-component";
 import { motion } from "framer-motion";
+import { Button } from "react-bootstrap";
+
 
 import "react-vertical-timeline-component/style.min.css";
 
@@ -52,6 +54,42 @@ const ExperienceCard = ({ experience }) => {
           </li>
         ))}
       </ul>
+      <div className='flex justify-end mt-5'>
+      <Button
+  variant="primary"
+  size="md"
+  style={{
+    backgroundColor: "#3c3078",
+    color: "#fff",
+    borderRadius: "50px",
+    transition: "all 0.2s ease-in-out",
+    width: "auto",
+    height: "auto",
+    padding: "15px 30px",
+    fontSize: "1.2rem",
+    margin: "0 auto",
+    display: "flex",
+    justifyContent: "center",
+    alignItems: "center",
+    outline: "none",
+    cursor: "pointer",
+    boxShadow: "2px 2px 6px #1d1836",
+    border: "none",
+  }}
+  onMouseEnter={(e) => {
+    e.target.style.backgroundColor = "#2d2464";
+    e.target.style.transform = "scale(1.05)";
+  }}
+  onMouseLeave={(e) => {
+    e.target.style.backgroundColor = "#3c3078";
+    e.target.style.transform = "scale(1)";
+  }}
+  
+>
+  Click me
+</Button>
+
+      </div>
     </VerticalTimelineElement>
   );
 };
