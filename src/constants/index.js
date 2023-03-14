@@ -47,7 +47,12 @@ import {
  sql,
  swift,
  tensorflow,
- tkinter
+ tkinter,
+ pintos,
+ cityscoop,
+ huffman,
+ database
+
 
 } from "../assets";
 
@@ -327,7 +332,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
+    image: pintos,
   },
   {
     name: "Organization Point Database",
@@ -347,7 +352,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
+    image: database,
     // source_code_link: "https://github.com/",
   },
   {
@@ -368,9 +373,32 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
+    image: cityscoop,
     source_code_link: "Cityscoop.me",
   },
+  {
+    name: "Huffman Encoding",
+    description:
+      "Recreated the huffman encoding algorithm using Java using standard Java data structures",
+    tags: [
+      {
+        name: "Java",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Data Structures",
+        color: "green-text-gradient",
+      },
+      {
+        name: "School-Project",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: huffman,
+    // source_code_link: "Cityscoop.me",
+  },
+
+  
 ];
 
 export { services, technologies, experiences, testimonials, projects, devops, educations };

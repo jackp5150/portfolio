@@ -133,7 +133,7 @@ const Contact = () => {
           </form>
       </motion.div>
 
-      <motion.div variants={slideIn("left", "tween", 0.2, 1)} style={{ position: "absolute", left: "-40px", top: "15%", zIndex: 999, display: "flex", flexDirection: "column", alignItems: "center" }}>
+      <motion.div variants={slideIn("left", "tween", 0.2, 1)} style={{ position: "absolute", left: "-1%", top: "15%", zIndex: 999, display: "flex", flexDirection: "column", alignItems: "center" }}>
       <a href="https://www.linkedin.com/in/jack-perkins-627976162/" target="_blank" rel="noopener noreferrer">
         <SocialIcon
           url="https://www.linkedin.com/in/jack-perkins-627976162/"

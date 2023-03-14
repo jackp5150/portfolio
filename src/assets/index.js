@@ -57,7 +57,11 @@ import sklearn from "./tech/sklearn.png";
 import sql from "./tech/sql.jpeg";
 import swift from "./tech/swift.png";
 import tensorflow from "./tech/tensorflow.png";
-import tkinter from "./tech/tkinter.png"
+import tkinter from "./tech/tkinter.png";
+import huffman from "./huffman.png";
+import database from "./database.png";
+import cityscoop from "./cityscoop.png";
+import pintos from "./pintos.png";
 
 
 export {
@@ -114,5 +118,9 @@ export {
  swift,
  tensorflow,
  tkinter,
+ cityscoop,
+ huffman,
+ database,
+ pintos
 
 };
