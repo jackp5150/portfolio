@@ -9,7 +9,6 @@
     "build": "vite build",
     "preview": "vite preview",
     "deploy": "vite build && gh-pages -d dist -r 'git@github.com:jackp5150/portfolio.git' -b 'gh-pages'"
-
   },
   "dependencies": {
     "@emailjs/browser": "^3.10.0",
@@ -33,7 +32,8 @@
     "react-tilt": "^0.1.4",
     "react-vertical-timeline-component": "^3.6.0",
     "three": "^0.150.1",
-    "use": "^3.1.1"
+    "use": "^3.1.1",
+    "vite-plugin-windicss": "^1.8.10"
   },
   "devDependencies": {
     "@types/react": "^18.0.27",
