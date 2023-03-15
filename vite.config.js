@@ -6,6 +6,6 @@ export default defineConfig({
   plugins: [react()],
   base: '/portfolio/',
   build: {
-    publicPath: '/portfolio/',
+    publicPath: '/portfolio/assets/',
   },
 });
