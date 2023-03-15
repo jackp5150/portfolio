@@ -3,12 +3,13 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://jackperkins.org/portfolio",
+  "homepage": "https://jackperkins.org/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "deploy": "vite build && gh-pages -d dist"
+    "deploy": "vite build && gh-pages -d dist -r 'git@github.com:jackp5150/portfolio.git' -b 'gh-pages'"
+
   },
   "dependencies": {
     "@emailjs/browser": "^3.10.0",
