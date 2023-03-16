@@ -252,6 +252,7 @@ const educations = [
     company_name: "EcoCar EV Challenge",
     icon: ecocar,
     iconBg: "#383E56",
+    link: "https://sites.utexas.edu/ecocar/",
     date: "Dec 2022 - Present",
     points: [
       "Used Tensorflow and OpenCV to create a model that identifies driver's faces and to provide an attentiveness value to determine intrusiveness of ADAS systems",
@@ -264,7 +265,7 @@ const educations = [
     company_name: "Texas Convergent",
     icon: convergent,
     iconBg: "#E6DEDD",
-    link: "https://sites.utexas.edu/ecocar/",
+    link: "https://www.txconvergent.org/",
     date: "Jan 2023 - Present",
     points: [
       "Accepted into Forge program which has a less than 10% acceptance rate",
