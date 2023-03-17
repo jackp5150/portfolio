@@ -7,6 +7,7 @@ import LoadingAnimation from "./components/IntroLoader";
 import Lottie from 'react-lottie'
 import animationData from './lotties/loading.json'
 import SocialIcon from "./components/SocialIcons";
+import Footer from './components/footer';
 import { About, Contact, Experience, Feedbacks, Hero, Navbar, Tech, Works, StarsCanvas, Education } from "./components";
 
 const App = () => {
@@ -15,6 +16,9 @@ const App = () => {
   useEffect(() => {
     setTimeout(() => setLoading(false), 3000);
   }, []);
+
+
+  
 
   return (
     <Router>
@@ -29,13 +33,15 @@ const App = () => {
             <About />
             <Education/>
             <Experience />
-            <Tech />
             <Works />
+            <Tech />
+            
             {/* <Feedbacks /> */}
             <div className='relative z-0'>
               <Contact />
               <StarsCanvas />
             </div>
+            <Footer/>
           </h1>
         )}
       </div>
